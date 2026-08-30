@@ -1,0 +1,2 @@
+mode,depth,components,cartesian_log2_states,strategy,success,final_regions,final_states,final_inputs,final_outputs,wall_seconds,generations,merges,candidate_evaluations,oversized_candidates,all_transition_evaluations,selected_transition_evaluations,peak_candidate_raw_states,peak_selected_raw_states,peak_quotient_states,peak_description_bits,selected_total_gain_bits,recovered_oracle_clusters,oracle_cluster_count,cluster_recall,failure
+hyper,4,31,31,morph_hyper_batch,True,1,32,1,1,0.21908924200033653,5,30,63,0,26960,12528,512,512,32,37376,26.0,28,30,0.9333333333333333,

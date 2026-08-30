@@ -1,0 +1,14 @@
+{
+  "random_minimizers": 10000,
+  "split_reifications": 1000,
+  "hierarchy_vs_monolithic": 500,
+  "failures": [],
+  "elapsed_seconds_sum": 41.778647710000314,
+  "all_passed": true,
+  "source_files": [
+    "exactness_minimizers_10000_rerun.json",
+    "exactness_splits_1000_rerun.json",
+    "exactness_hierarchies_500_rerun.json"
+  ],
+  "note": "Aggregated from three independently rerun suites after final code changes."
+}

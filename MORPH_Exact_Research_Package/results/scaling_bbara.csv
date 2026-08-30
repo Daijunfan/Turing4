@@ -1,0 +1,6 @@
+family,depth,leaves,seed,strategy,decoy_degree,root_states,root_inputs,root_outputs,primitive_state_sum,primitive_state_max,primitive_input_max,cartesian_log2_states,exact_root,all_certificates,success,final_regions,final_states,final_inputs,final_outputs,wall_seconds,generations,merges,candidate_evaluations,oversized_candidates,all_transition_evaluations,selected_transition_evaluations,peak_candidate_raw_states,peak_selected_raw_states,peak_quotient_states,peak_description_bits,selected_total_gain_bits,recovered_oracle_clusters,oracle_cluster_count,cluster_recall,failure
+bbara,2,4,0,morph_batch,4,9,4,2,44,36,6,9.169925001442312,True,True,True,1,9,4,2,0.05431045999989692,2,3,4,0,12112,2896,72,36,36,32544,6.0,3,3,1.0,
+bbara,3,8,0,morph_batch,4,9,4,2,96,72,7,17.169925001442312,True,True,True,1,9,4,2,0.8472859480000352,3,7,11,0,206000,12208,288,72,144,665280,14.0,7,7,1.0,
+bbara,4,16,0,morph_batch,4,9,4,2,208,144,8,33.16992500144231,True,True,True,1,9,4,2,3.774330510000027,5,15,23,0,872560,49520,576,144,288,2953152,30.0,15,15,1.0,
+bbara,5,32,0,morph_batch,4,9,4,2,448,288,9,65.16992500144231,True,True,True,1,9,4,2,4.43160471300007,7,31,47,0,1064240,198896,576,288,288,2953152,62.0,31,31,1.0,
+bbara,6,64,0,morph_batch,4,9,4,2,960,576,10,129.16992500144232,True,True,True,1,9,4,2,19.65139818900002,10,63,97,0,4443824,796656,1152,576,576,12985344,126.0,63,63,1.0,

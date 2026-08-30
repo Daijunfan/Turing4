@@ -1,0 +1,675 @@
+{
+  "component_count": 10,
+  "morph_cost": 8.658211482751796,
+  "morph_failure": "",
+  "morph_success": true,
+  "network": {
+    "contact_edges": [
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "global_outputs": [
+      "r1"
+    ],
+    "leaf_machines": {
+      "0": {
+        "initial": 0,
+        "inputs": [
+          "u",
+          "r9"
+        ],
+        "name": "random-component-0",
+        "next_state": [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "output_bits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "outputs": [
+          "r0"
+        ]
+      },
+      "1": {
+        "initial": 0,
+        "inputs": [
+          "u",
+          "r2"
+        ],
+        "name": "random-component-1",
+        "next_state": [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ]
+        ],
+        "output_bits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "outputs": [
+          "r1"
+        ]
+      },
+      "2": {
+        "initial": 0,
+        "inputs": [
+          "u",
+          "r7"
+        ],
+        "name": "random-component-2",
+        "next_state": [
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "output_bits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "outputs": [
+          "r2"
+        ]
+      },
+      "3": {
+        "initial": 0,
+        "inputs": [
+          "u",
+          "r5"
+        ],
+        "name": "random-component-3",
+        "next_state": [
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "output_bits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "outputs": [
+          "r3"
+        ]
+      },
+      "4": {
+        "initial": 0,
+        "inputs": [
+          "u",
+          "r8"
+        ],
+        "name": "random-component-4",
+        "next_state": [
+          [
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ]
+        ],
+        "output_bits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "outputs": [
+          "r4"
+        ]
+      },
+      "5": {
+        "initial": 0,
+        "inputs": [
+          "u",
+          "r0"
+        ],
+        "name": "random-component-5",
+        "next_state": [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "output_bits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "outputs": [
+          "r5"
+        ]
+      },
+      "6": {
+        "initial": 0,
+        "inputs": [
+          "u",
+          "r4"
+        ],
+        "name": "random-component-6",
+        "next_state": [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            1
+          ]
+        ],
+        "output_bits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "outputs": [
+          "r6"
+        ]
+      },
+      "7": {
+        "initial": 0,
+        "inputs": [
+          "u",
+          "r3"
+        ],
+        "name": "random-component-7",
+        "next_state": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "output_bits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "outputs": [
+          "r7"
+        ]
+      },
+      "8": {
+        "initial": 0,
+        "inputs": [
+          "u",
+          "r1"
+        ],
+        "name": "random-component-8",
+        "next_state": [
+          [
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            0
+          ]
+        ],
+        "output_bits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "outputs": [
+          "r8"
+        ]
+      },
+      "9": {
+        "initial": 0,
+        "inputs": [
+          "u",
+          "r6"
+        ],
+        "name": "random-component-9",
+        "next_state": [
+          [
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ],
+        "output_bits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "outputs": [
+          "r9"
+        ]
+      }
+    },
+    "metadata": {
+      "component_count": 10,
+      "seed": 1000041
+    }
+  },
+  "opt_cost": 3.0,
+  "opt_tree": {
+    "formation": {
+      "cost": 3.0,
+      "external_input_bits": 1,
+      "left_mask": 2,
+      "reachable_product_states": 4,
+      "right_mask": 1021
+    },
+    "leaves": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "left": {
+      "formation": null,
+      "leaves": [
+        1
+      ],
+      "left": null,
+      "mask": 2,
+      "peak_cost": 0.0,
+      "right": null
+    },
+    "mask": 1023,
+    "peak_cost": 3.0,
+    "right": {
+      "formation": {
+        "cost": 3.0,
+        "external_input_bits": 2,
+        "left_mask": 4,
+        "reachable_product_states": 2,
+        "right_mask": 1017
+      },
+      "leaves": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "left": {
+        "formation": null,
+        "leaves": [
+          2
+        ],
+        "left": null,
+        "mask": 4,
+        "peak_cost": 0.0,
+        "right": null
+      },
+      "mask": 1021,
+      "peak_cost": 3.0,
+      "right": {
+        "formation": {
+          "cost": 3.0,
+          "external_input_bits": 2,
+          "left_mask": 256,
+          "reachable_product_states": 2,
+          "right_mask": 761
+        },
+        "leaves": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "left": {
+          "formation": null,
+          "leaves": [
+            8
+          ],
+          "left": null,
+          "mask": 256,
+          "peak_cost": 0.0,
+          "right": null
+        },
+        "mask": 1017,
+        "peak_cost": 3.0,
+        "right": {
+          "formation": {
+            "cost": 3.0,
+            "external_input_bits": 2,
+            "left_mask": 16,
+            "reachable_product_states": 2,
+            "right_mask": 745
+          },
+          "leaves": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "left": {
+            "formation": null,
+            "leaves": [
+              4
+            ],
+            "left": null,
+            "mask": 16,
+            "peak_cost": 0.0,
+            "right": null
+          },
+          "mask": 761,
+          "peak_cost": 3.0,
+          "right": {
+            "formation": {
+              "cost": 3.0,
+              "external_input_bits": 2,
+              "left_mask": 64,
+              "reachable_product_states": 2,
+              "right_mask": 681
+            },
+            "leaves": [
+              0,
+              3,
+              5,
+              6,
+              7,
+              9
+            ],
+            "left": {
+              "formation": null,
+              "leaves": [
+                6
+              ],
+              "left": null,
+              "mask": 64,
+              "peak_cost": 0.0,
+              "right": null
+            },
+            "mask": 745,
+            "peak_cost": 3.0,
+            "right": {
+              "formation": {
+                "cost": 3.0,
+                "external_input_bits": 2,
+                "left_mask": 169,
+                "reachable_product_states": 2,
+                "right_mask": 512
+              },
+              "leaves": [
+                0,
+                3,
+                5,
+                7,
+                9
+              ],
+              "left": {
+                "formation": {
+                  "cost": 3.0,
+                  "external_input_bits": 2,
+                  "left_mask": 1,
+                  "reachable_product_states": 2,
+                  "right_mask": 168
+                },
+                "leaves": [
+                  0,
+                  3,
+                  5,
+                  7
+                ],
+                "left": {
+                  "formation": null,
+                  "leaves": [
+                    0
+                  ],
+                  "left": null,
+                  "mask": 1,
+                  "peak_cost": 0.0,
+                  "right": null
+                },
+                "mask": 169,
+                "peak_cost": 3.0,
+                "right": {
+                  "formation": {
+                    "cost": 3.0,
+                    "external_input_bits": 2,
+                    "left_mask": 32,
+                    "reachable_product_states": 2,
+                    "right_mask": 136
+                  },
+                  "leaves": [
+                    3,
+                    5,
+                    7
+                  ],
+                  "left": {
+                    "formation": null,
+                    "leaves": [
+                      5
+                    ],
+                    "left": null,
+                    "mask": 32,
+                    "peak_cost": 0.0,
+                    "right": null
+                  },
+                  "mask": 168,
+                  "peak_cost": 3.0,
+                  "right": {
+                    "formation": {
+                      "cost": 3.0,
+                      "external_input_bits": 2,
+                      "left_mask": 8,
+                      "reachable_product_states": 2,
+                      "right_mask": 128
+                    },
+                    "leaves": [
+                      3,
+                      7
+                    ],
+                    "left": {
+                      "formation": null,
+                      "leaves": [
+                        3
+                      ],
+                      "left": null,
+                      "mask": 8,
+                      "peak_cost": 0.0,
+                      "right": null
+                    },
+                    "mask": 136,
+                    "peak_cost": 3.0,
+                    "right": {
+                      "formation": null,
+                      "leaves": [
+                        7
+                      ],
+                      "left": null,
+                      "mask": 128,
+                      "peak_cost": 0.0,
+                      "right": null
+                    }
+                  }
+                }
+              },
+              "mask": 681,
+              "peak_cost": 3.0,
+              "right": {
+                "formation": null,
+                "leaves": [
+                  9
+                ],
+                "left": null,
+                "mask": 512,
+                "peak_cost": 0.0,
+                "right": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "ratio": 2.8860704942505984,
+  "seed": 1000041
+}

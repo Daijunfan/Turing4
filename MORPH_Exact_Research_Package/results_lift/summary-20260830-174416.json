@@ -1,0 +1,12 @@
+{
+  "all_symbolic_proofs": null,
+  "backend": "dd.cudd",
+  "baseline_tests": "8 passed before changes",
+  "bdd_empirical_exponent": null,
+  "generated_at": "20260830-174416",
+  "n4096_under_120s": false,
+  "n512_under_120s_4gb": false,
+  "raw_file": "results_lift/raw/run-20260830-174416.jsonl",
+  "record_count": 10,
+  "validation_zero_errors": null
+}

@@ -1,0 +1,8 @@
+mode,depth,components,cartesian_log10,success,failure,wall_seconds,final_states,final_inputs,final_outputs,generations,merges,cluster_recall,candidate_evaluations,oversized_candidates,all_transition_evaluations,peak_candidate_raw_states,peak_selected_raw_states,certificates_all,small_monolithic_exact
+pair,2,7,3.339848783037637,True,,0.07014218799986338,27,2,2,6,6,1.0,13,0,12456,27,27,True,True
+pair,3,15,7.156818820794936,True,,0.4006985179998992,81,2,2,14,14,1.0,33,0,53784,81,81,True,
+pair,4,31,14.790758896309535,True,,2.1130269340001178,243,2,2,30,30,1.0,65,0,164232,243,243,True,
+hyper,2,7,3.339848783037637,True,,0.03453867200005334,27,2,2,2,6,1.0,12,0,3600,27,27,True,True
+hyper,3,15,7.156818820794936,True,,0.2008745690000069,81,2,2,3,14,1.0,28,0,13680,81,81,True,
+hyper,4,31,14.790758896309535,True,,1.2991928410001492,243,2,2,4,30,1.0,60,0,46800,243,243,True,
+hyper,5,63,30.058639047338733,True,,9.599836290999974,729,2,2,5,62,1.0,124,0,151920,729,729,True,

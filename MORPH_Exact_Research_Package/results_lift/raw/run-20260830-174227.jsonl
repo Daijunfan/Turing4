@@ -1,0 +1,1 @@
+{"exhaustive_state_bit_limit": 20, "failures": [], "gauge_cycle_sizes": [4, 6, 8, 10, 12], "kind": "exact_validation", "random_boolean_machines": 1000, "random_machine_networks": 500, "wall_seconds": 16.488664375036024, "zero_errors": true}

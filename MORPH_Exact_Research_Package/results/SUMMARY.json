@@ -1,0 +1,52 @@
+{
+  "prototype": "MORPH-Exact / MORPH-Hyper",
+  "language": "Python",
+  "core_test_status": "8/8 passed",
+  "exactness_stress": {
+    "random_minimizers": 10000,
+    "split_reifications": 1000,
+    "hierarchy_vs_monolithic": 500,
+    "failures": [],
+    "elapsed_seconds_sum": 41.778647710000314,
+    "all_passed": true,
+    "source_files": [
+      "exactness_minimizers_10000_rerun.json",
+      "exactness_splits_1000_rerun.json",
+      "exactness_hierarchies_500_rerun.json"
+    ],
+    "note": "Aggregated from three independently rerun suites after final code changes."
+  },
+  "largest_hidden_hierarchy": {
+    "leaves": 512,
+    "cartesian_state_space": "2^1023",
+    "final_states": 2,
+    "cluster_recall": 1.0,
+    "wall_seconds": 16.635109100000136
+  },
+  "cross_family": {
+    "runs": 21,
+    "successes": 21,
+    "exact_roots": 21,
+    "certificate_complete_runs": 21
+  },
+  "largest_natural_xor": {
+    "components": 255,
+    "cartesian_state_space": "2^255",
+    "final_states": 256,
+    "wall_seconds": 10.470646787000078,
+    "all_certificates": true
+  },
+  "largest_natural_mod3": {
+    "components": 63,
+    "cartesian_state_space": "3^63",
+    "final_states": 729,
+    "wall_seconds": 9.599836290999974,
+    "all_certificates": true
+  },
+  "known_limits": [
+    "Natural registered XOR tree with 511 components exceeded the current Python explicit-table budget.",
+    "Natural registered mod-3 sum tree with 127 components exceeded 15 minutes.",
+    "Finite deterministic synchronous Moore semantics only.",
+    "No claim that a Turing-Award-level theorem has already been proved."
+  ]
+}

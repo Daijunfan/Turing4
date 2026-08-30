@@ -1,0 +1,21 @@
+family,depth,leaves,seed,strategy,decoy_degree,root_states,root_inputs,root_outputs,primitive_state_sum,primitive_state_max,primitive_input_max,cartesian_log2_states,exact_root,all_certificates,success,final_regions,final_states,final_inputs,final_outputs,wall_seconds,generations,merges,candidate_evaluations,oversized_candidates,all_transition_evaluations,selected_transition_evaluations,peak_candidate_raw_states,peak_selected_raw_states,peak_quotient_states,peak_description_bits,selected_total_gain_bits,recovered_oracle_clusters,oracle_cluster_count,cluster_recall,failure
+parity,4,16,0,morph_batch,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,0.11266198099997382,5,15,23,0,25280,1920,128,32,64,58112,30.0,15,15,1.0,
+parity,4,16,0,structural,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,1.319524083000033,15,15,15,0,387920,387920,512,512,256,1183744,30.0,1,15,0.06666666666666667,
+parity,4,16,0,smallest,4,2,1,1,96,32,5,31.0,False,False,False,4,-1,-1,-1,1.189557010000044,12,12,13,1,157584,157584,256,256,256,526336,6.0,1,15,0.06666666666666667,all available merges exceeded the resource budget
+parity,4,16,0,random,4,2,1,1,96,32,5,31.0,False,False,False,6,-1,-1,-1,2.854177273000005,10,10,11,1,607264,607264,512,512,256,1183744,14.0,0,15,0.0,all available merges exceeded the resource budget
+parity,4,16,1,morph_batch,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,0.09733689399990908,5,15,23,0,25280,1920,128,32,64,58112,30.0,15,15,1.0,
+parity,4,16,1,structural,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,0.15567914600001131,15,15,15,0,38912,38912,128,128,64,58112,30.0,2,15,0.13333333333333333,
+parity,4,16,1,smallest,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,0.3633357950000118,15,15,15,0,100592,100592,256,256,128,263936,30.0,3,15,0.2,
+parity,4,16,1,random,4,2,1,1,96,32,5,31.0,False,False,False,3,-1,-1,-1,4.506685887999993,13,13,14,1,1098752,1098752,512,512,256,1183744,14.0,0,15,0.0,all available merges exceeded the resource budget
+parity,4,16,2,morph_batch,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,0.0965204609999546,5,15,23,0,25280,1920,128,32,64,58112,30.0,15,15,1.0,
+parity,4,16,2,structural,4,2,1,1,96,32,5,31.0,False,False,False,9,-1,-1,-1,1.4025543799998559,7,7,8,1,233552,233552,256,256,256,526336,6.0,1,15,0.06666666666666667,all available merges exceeded the resource budget
+parity,4,16,2,smallest,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,1.2516473100001804,15,15,15,0,352976,352976,512,512,256,1183744,30.0,1,15,0.06666666666666667,
+parity,4,16,2,random,4,2,1,1,96,32,5,31.0,False,False,False,10,-1,-1,-1,1.1727084029998878,6,6,7,1,145408,145408,256,256,256,526336,4.0,0,15,0.0,all available merges exceeded the resource budget
+parity,4,16,3,morph_batch,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,0.10322974299992893,5,15,23,0,25280,1920,128,32,64,58112,30.0,15,15,1.0,
+parity,4,16,3,structural,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,0.3167107469998882,15,15,15,0,91632,91632,256,256,128,263936,30.0,1,15,0.06666666666666667,
+parity,4,16,3,smallest,4,2,1,1,96,32,5,31.0,False,False,False,3,-1,-1,-1,1.529738339000005,13,13,14,1,290496,290496,512,512,256,1183744,12.0,0,15,0.0,all available merges exceeded the resource budget
+parity,4,16,3,random,4,2,1,1,96,32,5,31.0,False,False,False,8,-1,-1,-1,1.1166383439999663,8,8,9,1,133152,133152,256,256,256,526336,2.0,0,15,0.0,all available merges exceeded the resource budget
+parity,4,16,4,morph_batch,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,0.10278875999983939,5,15,23,0,25280,1920,128,32,64,58112,30.0,15,15,1.0,
+parity,4,16,4,structural,4,2,1,1,96,32,5,31.0,False,False,False,9,-1,-1,-1,0.7286748120000084,7,7,8,1,55360,55360,128,128,128,115584,4.0,0,15,0.0,all available merges exceeded the resource budget
+parity,4,16,4,smallest,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,1.3261362289999852,15,15,15,0,383360,383360,512,512,256,1183744,30.0,2,15,0.13333333333333333,
+parity,4,16,4,random,4,2,1,1,96,32,5,31.0,True,True,True,1,2,1,1,1.983442689000185,15,15,15,0,536400,536400,512,512,256,1183744,30.0,1,15,0.06666666666666667,

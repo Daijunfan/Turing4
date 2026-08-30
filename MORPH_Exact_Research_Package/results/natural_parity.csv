@@ -1,0 +1,10 @@
+mode,depth,components,cartesian_log2_states,strategy,success,final_regions,final_states,final_inputs,final_outputs,wall_seconds,generations,merges,candidate_evaluations,oversized_candidates,all_transition_evaluations,selected_transition_evaluations,peak_candidate_raw_states,peak_selected_raw_states,peak_quotient_states,peak_description_bits,selected_total_gain_bits,recovered_oracle_clusters,oracle_cluster_count,cluster_recall,failure
+hyper,3,15,15,morph_hyper_batch,True,1,16,2,1,0.063351793000038,3,14,28,0,3528,1640,32,32,16,672,11.0,14,14,1.0,
+hyper,4,31,31,morph_hyper_batch,True,1,32,1,1,0.2190892420003365,5,30,63,0,26960,12528,512,512,32,37376,26.0,28,30,0.9333333333333332,
+hyper,5,63,63,morph_hyper_batch,True,1,64,1,1,0.43889959299986,7,62,130,0,45208,20664,512,512,64,37376,57.0,53,62,0.8548387096774194,
+hyper,6,127,127,morph_hyper_batch,True,1,128,2,1,2.46278103900022,9,126,261,0,268096,130512,8192,8192,128,434176,120.0,107,126,0.8492063492063492,
+hyper,7,255,255,morph_hyper_batch,True,1,256,1,1,10.470646787000078,15,254,547,0,1101992,537512,32768,32768,256,1998848,247.0,220,254,0.8661417322834646,
+pair,3,15,15,morph_batch,True,1,16,2,1,0.1010654689998773,14,14,37,0,8256,3328,32,32,16,2592,11.0,7,14,0.5,
+pair,4,31,31,morph_batch,True,1,32,1,1,0.3846679589996711,30,30,83,0,54848,18432,128,128,32,28800,26.0,15,30,0.5,
+pair,5,63,63,morph_batch,True,1,64,1,1,0.7586743179999758,59,62,153,0,74080,31072,256,256,64,33024,57.0,36,62,0.5806451612903226,
+pair,6,127,127,morph_batch,True,1,128,2,1,3.867224372999772,119,126,289,0,531968,401152,4096,4096,128,1576960,120.0,68,126,0.5396825396825397,

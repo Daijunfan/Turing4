@@ -1,0 +1,8 @@
+{
+  "random_minimizers": 10000,
+  "split_reifications": 0,
+  "hierarchy_vs_monolithic": 0,
+  "failures": [],
+  "elapsed_seconds": 18.41096742100001,
+  "all_passed": true
+}

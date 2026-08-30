@@ -1,0 +1,1 @@
+{"failures": [], "kind": "exact_validation", "random_boolean_machines": 1000, "random_machine_networks": 500, "wall_seconds": 7.847512417007238, "zero_errors": true}

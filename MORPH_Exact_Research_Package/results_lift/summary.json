@@ -1,0 +1,73 @@
+{
+  "conclusion": "A",
+  "conclusion_text": "发现并严格验证了显式再原子化指数势垒—符号再原子化多项式的复杂性分离，并实现可递归组合的 MORPH-LIFT 原型。",
+  "backend": "dd.cudd",
+  "baseline": {
+    "before_changes": "8 passed in 2.53s",
+    "final": "16 passed"
+  },
+  "gauge_cycle_oracle": {
+    "sizes": [4, 6, 8, 10, 12],
+    "subset_counts": [15, 63, 255, 1023, 4095],
+    "all_proofs_verified": true,
+    "all_proper_quotients_equal_2_power_size": true,
+    "full_quotient_states": 2,
+    "opt_peak_costs": [4.0, 5.0, 6.0, 7.0, 8.0]
+  },
+  "symbolic_scaling": {
+    "sizes": [8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096],
+    "bdd_nodes": [79, 159, 319, 639, 1279, 2559, 5119, 10239, 20479, 40959],
+    "reachable_bdd_nodes": [16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192],
+    "wall_seconds": [0.008750332985073328, 0.007482249988242984, 0.010073041950818151, 0.018051124992780387, 0.038893082994036376, 0.12199745798716322, 0.47493791702436283, 2.02367583301384, 9.174459500005469, 44.98789275001036],
+    "peak_rss_bytes_n512": 154992640,
+    "peak_rss_bytes_n4096": 1884585984,
+    "empirical_bdd_exponent": 1.0015405533223798,
+    "predicate_count_all": 1,
+    "closure_iterations_all": 1,
+    "macro_state_bits_all": 1,
+    "all_bdd_and_smt_proofs_verified": true,
+    "global_state_space_enumerated": false
+  },
+  "explicit_scaling": {
+    "n8": {"success": true, "peak_raw_states": 64, "peak_quotient_states": 64},
+    "n16": {"success": true, "peak_raw_states": 4096, "peak_quotient_states": 4096, "wall_seconds": 27.029417416022625},
+    "n32": {"success": false, "status": "direct_timeout_during_exact_minimality_check", "wall_gate_seconds": 120},
+    "n64_to_n4096": {"success": false, "status": "blocked_by_timed_out_n32_execution_prefix"}
+  },
+  "validation": {
+    "random_boolean_machines": 1000,
+    "random_machine_networks": 500,
+    "gauge_sizes": [4, 6, 8, 10, 12],
+    "errors": 0,
+    "state_bit_enumeration_limit": 20
+  },
+  "counterexample": {
+    "sizes_searched": [5, 6, 7, 8, 9, 10],
+    "trials_per_size": 25,
+    "minimal": {
+      "file": "results_lift/counterexamples/minimal_epg_vs_opt.json",
+      "component_count": 5,
+      "seed": 500022,
+      "morph_cost": 5.0,
+      "opt_cost": 3.0,
+      "ratio": 1.6666666666666667
+    },
+    "maximum": {
+      "file": "results_lift/counterexamples/maximum_ratio_epg_vs_opt.json",
+      "component_count": 10,
+      "seed": 1000041,
+      "morph_cost": 8.658211482751796,
+      "opt_cost": 3.0,
+      "ratio": 2.8860704942505984
+    }
+  },
+  "raw_evidence": [
+    "results_lift/raw/run-20260830-172947.jsonl",
+    "results_lift/raw/run-20260830-173348.jsonl",
+    "results_lift/raw/run-20260830-174104.jsonl",
+    "results_lift/raw/run-20260830-174227.jsonl",
+    "results_lift/raw/run-20260830-174416.jsonl",
+    "results_lift/raw/run-20260830-174917.jsonl",
+    "results_lift/raw/negative-development-20260830.jsonl"
+  ]
+}
