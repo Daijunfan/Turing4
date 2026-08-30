@@ -1,0 +1,64 @@
+{
+  "bdd_orders": {
+    "best_of_n_bdd_nodes": 23,
+    "best_of_n_orders": 6,
+    "dynamic_bdd_nodes": 33,
+    "fixed_bdd_nodes": 23,
+    "reverse_bdd_nodes": 33,
+    "seconds": 0.012617167027201504
+  },
+  "explicit_canonical": {
+    "quotient_states": 2,
+    "seconds": 0.0016565839760005474,
+    "success": true
+  },
+  "m_invariant_stp_explicit": {
+    "quotient_states": 2,
+    "seconds": 0.0016565839760005474,
+    "success": true
+  },
+  "morph_gen": {
+    "affine_generator_matrix": [
+      327
+    ],
+    "affine_rank": 1,
+    "backend": "affine",
+    "cegis_iterations": 1,
+    "counterexample_count": 0,
+    "digest": "2ed8b5d36c96321873efb4e9bc63456f79faafba02f6327f26ce79f99a35b3b8",
+    "enumerated_micro_states": false,
+    "f_gate_count": 4,
+    "f_support_size": 5,
+    "g_gate_count": 1,
+    "gf2_initial_checks": 2,
+    "h_gate_count": 0,
+    "macro_bits": 1,
+    "minimality_status": "minimal observable affine row space",
+    "quotient_reachable_states": 2,
+    "sat_calls": 0,
+    "total_bgc": 5,
+    "wall_seconds": 0.00022483296925202012
+  },
+  "morph_lift": {
+    "macro_bits": 1,
+    "predicate_count": 1,
+    "seconds": 0.0014459160156548023
+  },
+  "oracle_latent_decoder": {
+    "evaluation_only": true,
+    "excluded_from_baseline_ranking": true
+  },
+  "physical_feature_selection": {
+    "selected_bits": null,
+    "success": false
+  },
+  "scc_whole_region": {
+    "candidate_bits": 10,
+    "certified_macro": false
+  },
+  "static_graph_partition": {
+    "certified_macro": false,
+    "crosses_scc": true,
+    "parts": 2
+  }
+}

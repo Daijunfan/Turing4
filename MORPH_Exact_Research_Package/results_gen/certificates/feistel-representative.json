@@ -1,0 +1,27 @@
+{
+  "bdd_conditions": {
+    "functionality": true,
+    "initial_preservation": true,
+    "macro_surjectivity": true,
+    "output_preservation": true,
+    "reachable_coverage": true,
+    "transition_commutation": true
+  },
+  "behavioral_complete": true,
+  "distinguishing_words": {
+    "0,1": []
+  },
+  "explicit_isomorphism": true,
+  "macro_minimal": true,
+  "maximum_distinguishing_word_length": 0,
+  "proof_checking_seconds": 0.011737583030480891,
+  "proof_generation_seconds": 0.006779249990358949,
+  "verified": true,
+  "z3_conditions": {
+    "functionality": "UNSAT",
+    "initial_preservation": "UNSAT",
+    "output_preservation": "UNSAT",
+    "reachable_coverage": "UNSAT",
+    "transition_commutation": "UNSAT"
+  }
+}

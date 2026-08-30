@@ -1,0 +1,37 @@
+{
+  "github_repository": "https://github.com/Daijunfan/Turing4",
+  "release_required": false,
+  "reason": "No artifact approaches GitHub's 100 MB single-file limit; code, summaries, raw evidence and representative certificates remain directly in the repository.",
+  "artifacts": [
+    {
+      "path": "MORPH_Exact_Research_Package/results_gen/summary.json",
+      "bytes": 4643,
+      "sha256": "346d1c43896cc2a6f226662a62bcfa5f445c2b22a53212489d1bed038213a45b"
+    },
+    {
+      "path": "MORPH_Exact_Research_Package/results_gen/raw/small-20260831-024906.jsonl",
+      "bytes": 3032557,
+      "sha256": "b6e48847df280234e60ffc795276f866a992991da07e52ff0f8f5841ce01f2b9"
+    },
+    {
+      "path": "MORPH_Exact_Research_Package/results_gen/raw/scaling-affine-20260831-023544.jsonl",
+      "bytes": 1449142,
+      "sha256": "476c729e8a35a82a530ced677ba2fa1c3a74aa924acd47fb96abc2fca5ac0b5a"
+    },
+    {
+      "path": "MORPH_Exact_Research_Package/results_gen/raw/scaling-triangular-20260831-015406.jsonl",
+      "bytes": 1081888,
+      "sha256": "be5cda216e440e4ce8f352d8179e6f692575801b37093b5e37465a994ca8a4c5"
+    },
+    {
+      "path": "MORPH_Exact_Research_Package/results_gen/raw/scaling-multi-20260831-020321.jsonl",
+      "bytes": 1421,
+      "sha256": "a7925efcb837744f4cd426db00e90c6e85e26d92b6896f8e191d0628418fe9ba"
+    },
+    {
+      "path": "MORPH_Exact_Research_Package/results_gen/raw/baseline-affine-n4096.jsonl",
+      "bytes": 1384,
+      "sha256": "1db01b4cc6ebeeab3e4043562e0bfa0790f0c6b78b555a9775f7c4d260e615c7"
+    }
+  ]
+}

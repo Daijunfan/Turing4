@@ -1,0 +1,86 @@
+{
+  "conclusion": "identical dependency structure does not determine behavior quotient",
+  "degree_sequence": [
+    1,
+    1
+  ],
+  "dependency_edges": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "exhaustive_proof": true,
+  "machine_a": {
+    "initial": 0,
+    "next_state": [
+      [
+        0
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        3
+      ]
+    ],
+    "output": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "quotient_states": 1
+  },
+  "machine_b": {
+    "initial": 0,
+    "next_state": [
+      [
+        1
+      ],
+      [
+        3
+      ],
+      [
+        0
+      ],
+      [
+        2
+      ]
+    ],
+    "output": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "quotient_states": 4
+  },
+  "nodes": 2,
+  "scc_sizes": [
+    2
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "affine": {
+    "failures": 0,
+    "n4096_max_bgc": 14536,
+    "n4096_max_rss": 454557696,
+    "n4096_max_seconds": 1.7265174579806626,
+    "n4096_runs": 80,
+    "raw": "results_gen/raw/scaling-affine-20260831-023544.jsonl",
+    "runs": 640
+  },
+  "conclusion": "PARTIAL",
+  "development_partial_files": [
+    "results_gen/raw/small-20260831-004343.jsonl",
+    "results_gen/raw/scaling-triangular-20260831-013443.jsonl",
+    "results_gen/raw/scaling-triangular-20260831-012251.jsonl",
+    "results_gen/raw/scaling-triangular-20260831-010905.jsonl",
+    "results_gen/raw/scaling-triangular-20260831-005052.jsonl",
+    "results_gen/raw/scaling-triangular-20260831-013954.jsonl",
+    "results_gen/raw/small-20260831-004449.jsonl",
+    "results_gen/raw/small-20260831-020451.jsonl",
+    "results_gen/raw/small-20260831-020801.jsonl",
+    "results_gen/raw/scaling-affine-20260831-005020.jsonl"
+  ],
+  "feistel": {
+    "complete_matrix": false,
+    "raw": "results_gen/raw/scaling-feistel-20260831-020037.jsonl",
+    "runs": 1,
+    "status": "INCONCLUSIVE",
+    "successes": 1
+  },
+  "generated_at": "2026-08-31T02:40:54+0800",
+  "minimum_success_gates": {
+    "affine_4096_gate": true,
+    "affine_and_triangular_success": true,
+    "baseline_advantage": true,
+    "dual_certificates": true,
+    "eight_organ_two_levels": true,
+    "lift_audit_core_failures": false,
+    "minimal_macro_bits": true,
+    "negative_results_preserved": true,
+    "no_direct_coordinate_recovery": true,
+    "no_family_or_encoding_metadata": true,
+    "old_lift_tests_preserved": true,
+    "polynomial_recovery_theorem": true,
+    "six_machine_classes": true,
+    "small_exact_zero_errors": true,
+    "structural_counterexample": true,
+    "triangular_256_gate": true
+  },
+  "multi_organ": {
+    "raw": "results_gen/raw/scaling-multi-20260831-020321.jsonl",
+    "records": [
+      {
+        "encoding": "global-affine-mix",
+        "factorization_metadata_used": false,
+        "factorization_similarity_to_oracle": 1.0,
+        "latent_organ_count": 2,
+        "macro_bits": 2,
+        "micro_state_bits": 16,
+        "oracle_origin_labels": [
+          "parity",
+          "modulo-counter"
+        ],
+        "proof_verified": true,
+        "recovered_organ_count": 2,
+        "recursion_depth": 2,
+        "status": "SUPPORTED",
+        "wall_seconds": 0.011958416958805174
+      },
+      {
+        "encoding": "global-affine-mix",
+        "factorization_metadata_used": false,
+        "factorization_similarity_to_oracle": 1.0,
+        "latent_organ_count": 4,
+        "macro_bits": 4,
+        "micro_state_bits": 16,
+        "oracle_origin_labels": [
+          "parity",
+          "modulo-counter",
+          "pattern",
+          "handshake"
+        ],
+        "proof_verified": true,
+        "recovered_organ_count": 4,
+        "recursion_depth": 2,
+        "status": "SUPPORTED",
+        "wall_seconds": 0.01805125002283603
+      },
+      {
+        "encoding": "global-affine-mix",
+        "factorization_metadata_used": false,
+        "factorization_similarity_to_oracle": 1.0,
+        "latent_organ_count": 8,
+        "macro_bits": 8,
+        "micro_state_bits": 32,
+        "oracle_origin_labels": [
+          "parity",
+          "modulo-counter",
+          "pattern",
+          "handshake",
+          "alternating-bit",
+          "traffic-light",
+          "bbara",
+          "heterogeneous-product"
+        ],
+        "proof_verified": true,
+        "recovered_organ_count": 8,
+        "recursion_depth": 2,
+        "status": "SUPPORTED",
+        "wall_seconds": 0.9702713750302792
+      },
+      {
+        "encoding": "global-affine-mix",
+        "latent_organ_count": 16,
+        "negative_result_preserved": true,
+        "reason": "explicit public MacroMachine table would require 2^32 entries",
+        "status": "INCONCLUSIVE"
+      }
+    ]
+  },
+  "phase": "MORPH-GEN Coordinate-Free Generative Re-Atomization",
+  "small_exact": {
+    "encodings": [
+      "affine",
+      "feistel",
+      "triangular"
+    ],
+    "failures": 0,
+    "random_runs": 1500,
+    "raw": "results_gen/raw/small-20260831-022300.jsonl",
+    "runs": 1527
+  },
+  "triangular": {
+    "degree2_n256_max_rss": 117506048,
+    "degree2_n256_max_seconds": 0.4874040840077214,
+    "degree2_n256_runs": 60,
+    "failures": 0,
+    "raw": "results_gen/raw/scaling-triangular-20260831-015406.jsonl",
+    "runs": 720
+  }
+}

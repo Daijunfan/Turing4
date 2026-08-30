@@ -30,3 +30,22 @@ backends.  See:
 - [`RESULTS_LIFT.md`](RESULTS_LIFT.md): requirement-by-requirement status and experiments.
 - [`THEORY_LIFT.md`](THEORY_LIFT.md): GaugeCycle nucleation-barrier proof and symbolic certificate argument.
 - [`REPRODUCE_LIFT.md`](REPRODUCE_LIFT.md): CUDD build, tests, and non-overwriting experiment commands.
+
+## MORPH-GEN (current stage)
+
+MORPH-GEN receives only a circuit-level state system after unknown reversible
+coordinate scrambling. It synthesizes explicit F/G/H circuits, checks them with
+BDD and independent Z3/GF(2) backends, and reifies the result as a recursively
+composable `MacroMachine`.
+
+Current audited scope:
+
+- dense-affine and sparse triangular-pivot scaling: SUPPORTED;
+- nine latent-machine classes under affine/triangular/Feistel at small scale:
+  exhaustively verified;
+- arbitrary encodings and large Feistel scaling: INCONCLUSIVE;
+- sixteen-organ explicit reification: unsupported.
+
+Read [`RESULTS_GEN.md`](RESULTS_GEN.md), [`THEORY_GEN.md`](THEORY_GEN.md),
+[`CLAIMS_GEN.md`](CLAIMS_GEN.md), [`RELATED_WORK_GEN.md`](RELATED_WORK_GEN.md),
+and [`REPRODUCE_GEN.md`](REPRODUCE_GEN.md).

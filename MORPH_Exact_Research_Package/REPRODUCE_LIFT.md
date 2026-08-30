@@ -10,12 +10,21 @@ python3.11 -m venv .venv311
 .venv311/bin/python -m pip install -e . pytest
 ```
 
+For the independently audited pinned environment, replace the install command with:
+
+```bash
+.venv311/bin/python -m pip install -r requirements-lock.txt
+.venv311/bin/python -m pip install --no-deps -e .
+```
+
 PyPI 的通用 `dd` wheel 可能只包含 `autoref`。下面按 dd 0.6.0 自带构建开关安装 CUDD；临时目录不写入仓库：
 
 ```bash
 lift_tmp=$(mktemp -d)
 .venv311/bin/python -m pip download \
   --no-binary=:all: --no-deps -d "$lift_tmp" dd==0.6.0
+echo "4baadadc9b2ebf6136a5b84dc51a43cec5fe91203286cd377e1e093358cdffcd  $lift_tmp/dd-0.6.0.tar.gz" \
+  | shasum -a 256 -c -
 DD_CUDD=1 DD_FETCH=1 .venv311/bin/python -m pip install \
   --no-build-isolation --force-reinstall "$lift_tmp/dd-0.6.0.tar.gz"
 .venv311/bin/python -c 'from dd import cudd; print(cudd.BDD())'
